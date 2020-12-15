@@ -10,6 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients//feign接口调用
 public class SearchApplication {
     public static void main(String[] args) {
+        System.out.println("");
         SpringApplication.run(SearchApplication.class);
     }
 }
