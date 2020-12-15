@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.b2c.config.FilterProperties",
+      "name": "b2c.filter",
+      "type": "com.b2c.config.FilterProperties"
+    },
+    {
+      "sourceType": "com.b2c.config.JwtConfig",
+      "name": "b2c.jwt",
+      "type": "com.b2c.config.JwtConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.b2c.config.FilterProperties",
+      "name": "b2c.filter.allow-paths",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.b2c.config.JwtConfig",
+      "name": "b2c.jwt.cookie-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.b2c.config.JwtConfig",
+      "name": "b2c.jwt.pub-key-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.b2c.config.JwtConfig",
+      "name": "b2c.jwt.public-key",
+      "type": "java.security.PublicKey"
+    }
+  ]
+}

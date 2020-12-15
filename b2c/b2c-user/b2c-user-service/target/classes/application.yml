@@ -1,0 +1,20 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/b2c?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.ip-address}.${server.port}
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 10

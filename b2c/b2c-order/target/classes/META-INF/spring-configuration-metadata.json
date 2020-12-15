@@ -1,0 +1,24 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mr.config.IdWorkerProperties",
+      "name": "b2c.worker",
+      "type": "com.mr.config.IdWorkerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.mr.config.IdWorkerProperties",
+      "defaultValue": 0,
+      "name": "b2c.worker.datacenter-id",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.mr.config.IdWorkerProperties",
+      "defaultValue": 0,
+      "name": "b2c.worker.worker-id",
+      "type": "java.lang.Long"
+    }
+  ]
+}
